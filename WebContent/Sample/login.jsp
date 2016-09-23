@@ -5,7 +5,7 @@
 <body>
 <h1>Sample Demo </h1>
 Please enter user : Miracle
-<s:form action="Welcome">
+<s:form action="Welcome.action" namespace="/">
 	<s:textfield name="username" label="Username"/>
 	<s:submit value="Get Vendors"/>
 </s:form>
